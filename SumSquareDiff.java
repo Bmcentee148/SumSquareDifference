@@ -11,7 +11,7 @@ class SumSquareDiff{
 			squareOfSum += i;
 		}
 		 squareOfSum *= squareOfSum;
-		 int result = sumOfSquares - squareOfSum;
+		 int result = squareOfSum - sumOfSquares;
 		System.out.println(result);
 	}
 }
